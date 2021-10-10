@@ -142,3 +142,18 @@ footer {
   margin: 0; 
   min-height: 120px; 
 }
+
+.cv-pdf i {
+  color: #fafafa;
+  font-size: 18px;
+  padding-left: 5px;
+  text-align: center;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: #e84610;
+}
