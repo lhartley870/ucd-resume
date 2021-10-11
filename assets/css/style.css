@@ -30,6 +30,10 @@
   background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+  background-color: #9b59b6;
+}
+
 /* -----------------------------Special paddings/margins/text */
 
 h1, 
@@ -63,6 +67,7 @@ h4 {
   padding: 0 30px 30px;
 }
 
+.history-heading,
 .section-heading {
   font-family: 'Exo', sans-serif;
   font-weight: 300;
@@ -275,4 +280,52 @@ footer {
 
 .progress-section {
   margin: 40px 20px; 
+}
+
+/* -----------------------------Work History */
+
+.history-heading {
+  color: #fafafa;
+  margin-bottom: 50px;
+}
+
+.timeline-item {
+  border-left: 1px solid;
+  color: #fafafa;
+  padding: 4em 2em 0em 2em;
+  position: relative; 
+}
+
+.timeline-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item:before {
+  content: attr(data-dates);
+  display: block;
+  font-family: 'Exo', sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 0;
+  position: absolute;
+  left: 2.5em;
+  margin: 0;
+  top: 3em;
+}
+
+.timeline-item:after {
+  background: #fafafa;
+  border-radius: 12px;
+  content: '';
+  display: block;
+  height: 12px;
+  left: -6px;
+  position: absolute;
+  top: 2.4em;
+  width: 12px;
+}
+
+.history-items {
+  margin-bottom: 30px;
 }
